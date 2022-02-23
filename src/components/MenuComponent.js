@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Media } from 'reactstrap;'
+import { Media } from 'reactstrap';
 
 class Menu extends Component {
     constructor(props) {
