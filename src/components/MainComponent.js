@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import Menu from './MenuComponent';
 import Contact from './ContactComponent';
+import DishDetail from './DishdetailComponent';
 import { DISHES } from '../shared/dishes';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
