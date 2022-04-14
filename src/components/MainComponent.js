@@ -17,7 +17,7 @@ class Main extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            dishes: DISHES,  // lifting the state up
+            dishes: DISHES,
             comments: COMMENTS,
             leaders: LEADERS,
             promotions: PROMOTIONS
@@ -36,7 +36,6 @@ class Main extends Component {
 
         const DishWithId = ({ match }) => {
             return (
-                // 10 -> base 10
                 <DishDetail dish={this.state.dishes.filter((dish) => dish.id === parseInt(match.params.dishId, 10))[0]}
                     comments={this.state.comments.filter((comment) => comment.id === parseInt(match.params.dishId, 10))}
                 />
